@@ -1,0 +1,102 @@
+body {
+    font-family: "Cinzel", serif;
+
+}
+
+.navbar{
+    background-color: #015d4d;
+}
+
+#cabecalho .nav .nav-link.active{
+    background-color: #efe9db;
+    color: #015d4d;
+}
+
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-cardapio .nav-link.active:hover {
+    color: #efe9db;
+}
+
+.navbar-toggler {
+    background-color: #efe9db;
+}
+
+.article-title {
+    font-family: "Great Vibes", cursive;
+    font-size: 42px;
+}
+
+#sobre-a-confeitaria, #cardapio {
+    background-color: #efe9db;
+}
+
+#sobre-a-confeitaria p {
+    font-size: 16px;
+}
+
+#sobre-a-confeitaria li {
+    font-size: 15px;
+}
+
+.text-colored {
+    color: #015d4d;
+}
+
+#eventos p {
+    font-size: 16px;
+}
+
+.nav-cardapio .nav-link.active,
+#contato button {
+    background-color: #015d4d;
+    color: #efe9db;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #015d4d;
+}
+
+.text-montage {
+    color: #015d4d;
+    margin: 10px 0px 10px 0px;
+}
+
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+
+.social-links a {
+    text-decoration: none;
+}
+
+.carousel-item {
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-item img {
+    max-width: 100%;
+    height: auto;
+}
+
+@media (max-width: 767px) {
+    #foto-loja {
+        max-height: 400px;
+        overflow-y: hidden;
+    }
+
+    #eventos img {
+        max-height: 300px;
+        max-width: 300px;
+    }
+}
+
+@media (max-width: 990px) {
+    #foto-loja {
+        max-height: 600px;
+        overflow-y: hidden;
+    }
+}
